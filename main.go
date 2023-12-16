@@ -13,7 +13,7 @@ import (
 	"strings"
 )
 
-const = `[UV2]
+const TOOLS_INI = `[UV2]
 ORGANIZATION="{{.Organization}}"
 NAME="{{.LastName}}", "{{.FirstName}}"
 EMAIL="{{.Email}}"
