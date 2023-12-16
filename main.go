@@ -17,6 +17,8 @@ const TOOLS_INI = `[UV2]
 ORGANIZATION="{{.Organization}}"
 NAME="{{.LastName}}", "{{.FirstName}}"
 EMAIL="{{.Email}}"
+TOOL_VARIANT=mdk_lite
+CDB0=UV4\STC.CDB ("STC MCU Database")
 [C51]
 PATH="{{.ExecutableDir}}\C51"
 VERSION=V9.61
@@ -37,6 +39,7 @@ TDRV11=BIN\Nuvoton_8051_Keil_uVision_Driver.dll ("Nuvoton 8051 Keil Driver")
 RTOS0=Dummy.DLL("Dummy")
 RTOS1=RTXTINY.DLL ("RTX-51 Tiny")
 RTOS2=RTX51.DLL ("RTX-51 Full")
+TDRV12=BIN\STCMON51.DLL ("STC Monitor-51 Driver")
 `
 
 func checkErr(err error) {
